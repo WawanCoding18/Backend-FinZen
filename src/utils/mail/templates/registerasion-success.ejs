@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration Success</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      .container{
+        max-width: 600px;
+        margin: 2px auto;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .header{
+        background-color: rgb(12, 175, 33);
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .content{
+        padding: 20px;
+      }
+
+      .footer{
+        background-color: #f1f1f1f1;
+        color: #555555;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .button{
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 20px 0;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 1px solid  rgb(12, 175, 33);
+        background-color: rgb(12, 175, 33);
+      }
+
+      @media(max-width: 600px){
+        .container{
+            width: 100%;
+            margin: 0;
+            border-radius: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Registration Success</h1>
+      </div>
+      <div class="content">
+        <p>Hello <%= username %></p>
+        <p>
+          Thank you for registering for our service. Here is your account
+          information:
+        </p>
+
+        <ul>
+          <li>
+            <b><strong>Name: </strong><%= fullName %></b>
+          </li>
+          <li>
+            <b><strong>Email: </strong><%= email %></b>
+          </li>
+          <li>
+            <b><strong>Date Registeration: </strong><%= createdAt %></b>
+          </li>
+        </ul>
+        <p>To get started, please click the button below:</p>
+        <a href="<%= activationLink %>" class="button">activation account</a>
+        <p>If you have any questions, please feel free to contact us</p>
+        <p>warm regards, event</p>
+      </div>
+      <div class="footer">
+        <p>&copy 2025 Acara Event Management System. Semua HAK dilindungi</p>
+      </div>
+    </div>
+  </body>
+</html>

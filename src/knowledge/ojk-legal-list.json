@@ -1,0 +1,660 @@
+[
+  {
+    "platform_name": "Danamas",
+    "company_name": "PT Pasar Dana Pinjaman",
+    "license_number": "KEP-49/D.05/2017",
+    "registered_since": "06 Juli 2017",
+    "website_url": "https://p2p.danamas.co.id/"
+  },
+  {
+    "platform_name": "Amartha",
+    "company_name": "PT Amartha Mikro Fintek",
+    "license_number": "KEP-46/D.05/2019",
+    "registered_since": "13 Mei 2019",
+    "website_url": "https://amartha.com/"
+  },
+  {
+    "platform_name": "Dompet Kilat",
+    "company_name": "PT Indo Fin Tek",
+    "license_number": "KEP-47/D.05/2019",
+    "registered_since": "13 Mei 2019",
+    "website_url": "https://dompetkilat.co.id/"
+  },
+  {
+    "platform_name": "Boost",
+    "company_name": "PT Creative Mobile Adventure",
+    "license_number": "KEP-48/D.05/2019",
+    "registered_since": "13 Mei 2019",
+    "website_url": "https://www.myboost.co.id"
+  },
+  {
+    "platform_name": "Tokomodal",
+    "company_name": "PT Toko Modal Mitra Usaha",
+    "license_number": "KEP-49/D.05/2019",
+    "registered_since": "24 Mei 2019",
+    "website_url": "https://www.tokomodal.co.id/"
+  },
+  {
+    "platform_name": "Modalku",
+    "company_name": "PT Mitrausaha Indonesia Grup",
+    "license_number": "KEP-81/D.05/2019",
+    "registered_since": "30 September 2019",
+    "website_url": "https://modalku.co.id/"
+  },
+  {
+    "platform_name": "KTA Kilat",
+    "company_name": "PT Pendanaan Teknologi Nusa",
+    "license_number": "KEP-82/D.05/2019",
+    "registered_since": "30 September 2019",
+    "website_url": "https://www.pendanaan.com/"
+  },
+  {
+    "platform_name": "Kredit Pintar",
+    "company_name": "PT Kredit Pintar Indonesia",
+    "license_number": "KEP-83/D.05/2019",
+    "registered_since": "30 September 2019",
+    "website_url": "https://www.kreditpintar.com/"
+  },
+  {
+    "platform_name": "Finmas",
+    "company_name": "PT Oriente Mas Sejahtera",
+    "license_number": "KEP-85/D.05/2019",
+    "registered_since": "30 September 2019",
+    "website_url": "https://www.finmas.co.id"
+  },
+  {
+    "platform_name": "KlikA2C",
+    "company_name": "PT Aman Cermat Cepat",
+    "license_number": "KEP-87/D.05/2019",
+    "registered_since": "30 September 2019",
+    "website_url": "https://klika2c.co.id/"
+  },
+  {
+    "platform_name": "Akseleran",
+    "company_name": "PT Akseleran Keuangan Inklusif Indonesia",
+    "license_number": "KEP-122/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://www.akseleran.co.id/"
+  },
+  {
+    "platform_name": "Ammana",
+    "company_name": "PT Ammana Fintek Syariah",
+    "license_number": "KEP-123/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://ammana.id/"
+  },
+  {
+    "platform_name": "PinjamanGo",
+    "company_name": "PT Dana Pinjaman Inklusif",
+    "license_number": "KEP-124/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://pinjamango.co.id"
+  },
+  {
+    "platform_name": "KoinP2P",
+    "company_name": "PT Lunaria Annua Teknologi",
+    "license_number": "KEP-125/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://koinp2p.com/"
+  },
+  {
+    "platform_name": "Pohondana",
+    "company_name": "PT Pohon Dana Indonesia",
+    "license_number": "KEP-126/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://pohondana.id/"
+  },
+  {
+    "platform_name": "Mekar",
+    "company_name": "PT Mekar InvestamaTeknologi",
+    "license_number": "KEP-127/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://mekar.id"
+  },
+  {
+    "platform_name": "AdaKami",
+    "company_name": "PT Pembiayaan Digital Indonesia",
+    "license_number": "KEP-128/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://www.adakami.id/"
+  },
+  {
+    "platform_name": "Esta Kapital",
+    "company_name": "PT Esta Kapital Fintek",
+    "license_number": "KEP-129/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://www.estakapital.co.id"
+  },
+  {
+    "platform_name": "KreditPro",
+    "company_name": "PT Tri Digi Fin",
+    "license_number": "KEP-130/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://www.kreditpro.id"
+  },
+  {
+    "platform_name": "FINTAG",
+    "company_name": "PT Fintegra Homido Indonesia",
+    "license_number": "KEP-131/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://fintag.id"
+  },
+  {
+    "platform_name": "RupiahCepat",
+    "company_name": "PT Kredit Utama Fintech Indonesia",
+    "license_number": "KEP-132/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://www.rupiahcepat.co.id/"
+  },
+  {
+    "platform_name": "Crowdo",
+    "company_name": "PT Mediator Komunitas Indonesia",
+    "license_number": "KEP-133/D.05/2019",
+    "registered_since": "13 Desember 2019",
+    "website_url": "https://crowdo.co.id/"
+  },
+  {
+    "platform_name": "Indodana Fintech",
+    "company_name": "PT Artha Dana Teknologi",
+    "license_number": "KEP-15/D.05/2020",
+    "registered_since": "19 Mei 2020",
+    "website_url": "https://www.indodanafintech.co.id/"
+  },
+  {
+    "platform_name": "JULO",
+    "company_name": "PT JULO Teknologi Finansial",
+    "license_number": "KEP-16/D.05/2020",
+    "registered_since": "19 Mei 2020",
+    "website_url": "https://www.julo.co.id/"
+  },
+  {
+    "platform_name": "Pinjamin",
+    "company_name": "PT Progo Puncak Group",
+    "license_number": "KEP-17/D.05/2020",
+    "registered_since": "19 Mei 2020",
+    "website_url": "https://pinjamwinwin.com/"
+  },
+  {
+    "platform_name": "DanaRupiah",
+    "company_name": "PT Layanan Keuangan Berbagi",
+    "license_number": "KEP-18/D.05/2020",
+    "registered_since": "19 Mei 2020",
+    "website_url": "https://www.danarupiah.id/"
+  },
+  {
+    "platform_name": "OVO Finansial",
+    "company_name": "PT Indonusa Bara Sejahtera",
+    "license_number": "KEP-19/D.05/2020",
+    "registered_since": "19 Mei 2020",
+    "website_url": "https://ovofinansial.com/"
+  },
+  {
+    "platform_name": "PinjamModal",
+    "company_name": "PT Finansial Integrasi Teknologi",
+    "license_number": "KEP-20/D.05/2020",
+    "registered_since": "19 Mei 2020",
+    "website_url": "https://pinjammodal.id/"
+  },
+  {
+    "platform_name": "Alami Sharia",
+    "company_name": "PT Alami Fintek Sharia",
+    "license_number": "KEP-21/D.05/2020",
+    "registered_since": "27 Mei 2020",
+    "website_url": "https://alamisharia.co.id/"
+  },
+  {
+    "platform_name": "AwanTunai",
+    "company_name": "PT Simplefi Teknologi Indonesia",
+    "license_number": "KEP-22/D.05/2020",
+    "registered_since": "27 Mei 2020",
+    "website_url": "https://awantunai.co.id/"
+  },
+  {
+    "platform_name": "Danakini",
+    "company_name": "PT Dana Kini Indonesia",
+    "license_number": "KEP-46/D.05/2020",
+    "registered_since": "16 Oktober 2020",
+    "website_url": "https://www.danakini.co.id"
+  },
+  {
+    "platform_name": "Singa",
+    "company_name": "PT Abadi Sejahtera Finansindo",
+    "license_number": "KEP-47/D.05/2020",
+    "registered_since": "16 Oktober 2020",
+    "website_url": "https://singa.id/"
+  },
+  {
+    "platform_name": "Danamerdeka",
+    "company_name": "PT Intekno Raya",
+    "license_number": "KEP-48/D.05/2020",
+    "registered_since": "16 Oktober 2020",
+    "website_url": "https://danamerdeka.co.id"
+  },
+  {
+    "platform_name": "Easycash",
+    "company_name": "PT Indonesia Fintopia Technology",
+    "license_number": "KEP-49/D.05/2020",
+    "registered_since": "16 Oktober 2020",
+    "website_url": "https://www.easycash.id/"
+  },
+  {
+    "platform_name": "Pinjamyuk",
+    "company_name": "PT Kuaikuai Tech Indonesia",
+    "license_number": "KEP-2/D.05/2021",
+    "registered_since": "06 Januari 2021",
+    "website_url": "https://www.pinjamyuk.co.id/"
+  },
+  {
+    "platform_name": "Finplus",
+    "company_name": "PT Rezeki Bersama Teknologi",
+    "license_number": "KEP-3/D.05/2021",
+    "registered_since": "06 Januari 2021",
+    "website_url": "https://finplus.co.id/"
+  },
+  {
+    "platform_name": "Uangme",
+    "company_name": "PT Uangme Fintek Indonesia",
+    "license_number": "KEP-4/D.05/2021",
+    "registered_since": "06 Januari 2021",
+    "website_url": "https://www.uangme.id/"
+  },
+  {
+    "platform_name": "PinjamDuit",
+    "company_name": "PT Stanford Teknologi Indonesia",
+    "license_number": "KEP-5/D.05/2021",
+    "registered_since": "06 Januari 2021",
+    "website_url": "https://pinjamduit.co.id/"
+  },
+  {
+    "platform_name": "DANA SYARIAH",
+    "company_name": "PT Dana Syariah Indonesia",
+    "license_number": "KEP-10/D.05/2021",
+    "registered_since": "23 Februari 2021",
+    "website_url": "http://danasyariah.id"
+  },
+  {
+    "platform_name": "BATUMBU",
+    "company_name": "PT Berdayakan Usaha Indonesia",
+    "license_number": "KEP-11/D.05/2021",
+    "registered_since": "23 Februari 2021",
+    "website_url": "www.batumbu.id"
+  },
+  {
+    "platform_name": "Cashcepat",
+    "company_name": "PT Artha Permata Makmur",
+    "license_number": "KEP-12/D.05/2021",
+    "registered_since": "23 Februari 2021",
+    "website_url": "http://cashcepat.id"
+  },
+  {
+    "platform_name": "klikUMKM",
+    "company_name": "PT Pinjaman Kemakmuran Rakyat",
+    "license_number": "KEP-13/D.05/2021",
+    "registered_since": "23 Februari 2021",
+    "website_url": "www.klikUMKM.co.id"
+  },
+  {
+    "platform_name": "Pinjam Gampang",
+    "company_name": "PT Kredit Plus Teknologi",
+    "license_number": "KEP-16/D.05/2021",
+    "registered_since": "16 Maret 2021",
+    "website_url": "http://www.kreditplusteknologi.id"
+  },
+  {
+    "platform_name": "cicil",
+    "company_name": "PT Cicil Solusi Mitra Teknologi",
+    "license_number": "KEP-20/D.05/2021",
+    "registered_since": "14 April 2021",
+    "website_url": "https://www.cicil.co.id"
+  },
+  {
+    "platform_name": "lumbungdana",
+    "company_name": "PT Lumbung Dana Indonesia",
+    "license_number": "KEP-21/D.05/2021",
+    "registered_since": "14 April 2021",
+    "website_url": "http://lumbungdana.co.id"
+  },
+  {
+    "platform_name": "360 KREDI",
+    "company_name": "PT Inovasi Terdepan Nusantara",
+    "license_number": "KEP-22/D.05/2021",
+    "registered_since": "14 April 2021",
+    "website_url": "www.360kredi.id"
+  },
+  {
+    "platform_name": "Kredinesia",
+    "company_name": "PT Kreditku Teknologi Indonesia",
+    "license_number": "KEP-25/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "www.kredinesia.id"
+  },
+  {
+    "platform_name": "Pintek",
+    "company_name": "PT Pinduit Teknologi Indonesia",
+    "license_number": "KEP-26/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "http://pintek.id"
+  },
+  {
+    "platform_name": "ModalRakyat",
+    "company_name": "PT Modal Rakyat Indonesia",
+    "license_number": "KEP-27/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "http://modalrakyat.id"
+  },
+  {
+    "platform_name": "SOLUSIKU",
+    "company_name": "PT Anugerah Digital Indonesia",
+    "license_number": "KEP-28/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "www.solusi-ku.id"
+  },
+  {
+    "platform_name": "Cairin",
+    "company_name": "PT Idana Solusi Sejahtera",
+    "license_number": "KEP-29/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "www.cairin.id"
+  },
+  {
+    "platform_name": "TrustIQ",
+    "company_name": "PT Trust Teknologi Finansial",
+    "license_number": "KEP-30/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "http://trustiq.id"
+  },
+  {
+    "platform_name": "KLIK KAMI",
+    "company_name": "PT Harapan Fintech Indonesia",
+    "license_number": "KEP-31/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "www.klikkami.co.id"
+  },
+  {
+    "platform_name": "Duha SYARIAH",
+    "company_name": "PT Duha Madani Syariah",
+    "license_number": "KEP-32/D.05/2021",
+    "registered_since": "21 April 2021",
+    "website_url": "www.duhasyariah.com"
+  },
+  {
+    "platform_name": "Invoila",
+    "company_name": "PT Sol Mitra Fintec",
+    "license_number": "KEP-39/D.05/2021",
+    "registered_since": "11 Mei 2021",
+    "website_url": "http://invoila.co.id"
+  },
+  {
+    "platform_name": "Sanders One Stop Solution",
+    "company_name": "PT Satustop Finansial Solusi",
+    "license_number": "KEP-40/D.05/2021",
+    "registered_since": "11 Mei 2021",
+    "website_url": "http://sanders.co.id"
+  },
+  {
+    "platform_name": "DanaBagus",
+    "company_name": "PT Dana Bagus Indonesia",
+    "license_number": "KEP-41/D.05/2021",
+    "registered_since": "11 Mei 2021",
+    "website_url": "www.danabagus.id"
+  },
+  {
+    "platform_name": "UKU",
+    "company_name": "PT Teknologi Merlin Sejahtera",
+    "license_number": "KEP-46/D.05/2021",
+    "registered_since": "2 Juni 2021",
+    "website_url": "ukuindo.com"
+  },
+  {
+    "platform_name": "KREDITO",
+    "company_name": "PT Fintek Digital Indonesia",
+    "license_number": "KEP-47/D.05/2021",
+    "registered_since": "2 Juni 2021",
+    "website_url": "https://kredito.id"
+  },
+  {
+    "platform_name": "AdaPundi",
+    "company_name": "PT Info Tekno Siaga",
+    "license_number": "KEP-48/D.05/2021",
+    "registered_since": "2 Juni 2021",
+    "website_url": "www.adapundi.com"
+  },
+  {
+    "platform_name": "Lentera Dana Nusantara",
+    "company_name": "PT Lentera Dana Nusantara",
+    "license_number": "KEP-49/D.05/2021",
+    "registered_since": "2 Juni 2021",
+    "website_url": "www.lenteradana.co.id/lender/"
+  },
+  {
+    "platform_name": "Modal Nasional",
+    "company_name": "PT Solusi Teknologi Finansial",
+    "license_number": "KEP-50/D.05/2021",
+    "registered_since": "2 Juni 2021",
+    "website_url": "www.modalnasional.co.id"
+  },
+  {
+    "platform_name": "Komunal",
+    "company_name": "PT Komunal Finansial Indonesia",
+    "license_number": "KEP-51/D.05/2021",
+    "registered_since": "2 Juni 2021",
+    "website_url": "www.komunal.co.id"
+  },
+  {
+    "platform_name": "Restock.ID",
+    "company_name": "PT Cerita Teknologi Indonesia",
+    "license_number": "KEP-52/D.05/2021",
+    "registered_since": "2 Juni 2021",
+    "website_url": "www.restock.id"
+  },
+  {
+    "platform_name": "Avantee",
+    "company_name": "PT Grha Dana Bersama",
+    "license_number": "KEP-66/D.05/2021",
+    "registered_since": "2 Agustus 2021",
+    "website_url": "www.avantee.co.id"
+  },
+  {
+    "platform_name": "Gradana",
+    "company_name": "PT Gradana Teknoruci Indonesia",
+    "license_number": "KEP-67/D.05/2021",
+    "registered_since": "2 Agustus 2021",
+    "website_url": "gradana.co.id"
+  },
+  {
+    "platform_name": "Danacita",
+    "company_name": "PT Inclusive Finance Group",
+    "license_number": "KEP-68/D.05/2021",
+    "registered_since": "2 Agustus 2021",
+    "website_url": "www.danacita.co.id"
+  },
+  {
+    "platform_name": "IKI Modal",
+    "company_name": "PT IKI Karunia Indonesia",
+    "license_number": "KEP-69/D.05/2021",
+    "registered_since": "2 Agustus 2021",
+    "website_url": "www.ikimodal.com"
+  },
+  {
+    "platform_name": "Ivoji",
+    "company_name": "PT Finansia Aira Teknologi",
+    "license_number": "KEP-73/D.05/2021",
+    "registered_since": "19 Agustus 2021",
+    "website_url": "www.ivoji.id"
+  },
+  {
+    "platform_name": "Indofund.id",
+    "company_name": "PT Bursa Akselerasi Indonesia",
+    "license_number": "KEP-74/D.05/2021",
+    "registered_since": "19 Agustus 2021",
+    "website_url": "indofund.id"
+  },
+  {
+    "platform_name": "iGrow",
+    "company_name": "PT LinkAja Modalin Nusantara",
+    "license_number": "KEP-75/D.05/2021",
+    "registered_since": "19 Agustus 2021",
+    "website_url": "igrow.asia"
+  },
+  {
+    "platform_name": "Danai.id",
+    "company_name": "PT Adiwisista Finansial Teknologi",
+    "license_number": "KEP-76/D.05/2021",
+    "registered_since": "19 Agustus 2021",
+    "website_url": "http://danai.id"
+  },
+  {
+    "platform_name": "DUMI",
+    "company_name": "PT Fidac Inovasi Teknologi",
+    "license_number": "KEP-78/D.05/2021",
+    "registered_since": "24 Agustus 2021",
+    "website_url": "minjem.com"
+  },
+  {
+    "platform_name": "LAHAN SIKAM",
+    "company_name": "PT Lampung Berkah Finansial Teknologi",
+    "license_number": "KEP-79/D.05/2021",
+    "registered_since": "24 Agustus 2021",
+    "website_url": "www.lahansikam.co.id"
+  },
+  {
+    "platform_name": "qazwa.id",
+    "company_name": "PT Qazwa Mitra Hasanah",
+    "license_number": "KEP-80/D.05/2021",
+    "registered_since": "24 Agustus 2021",
+    "website_url": "qazwa.id"
+  },
+  {
+    "platform_name": "KrediFazz",
+    "company_name": "PT KrediFazz Digital Indonesia",
+    "license_number": "KEP-81/D.05/2021",
+    "registered_since": "24 Agustus 2021",
+    "website_url": "www.kredifazz.id"
+  },
+  {
+    "platform_name": "Doeku",
+    "company_name": "PT Doeku Peduli Indonesia",
+    "license_number": "KEP-82/D.05/2021",
+    "registered_since": "24 Agustus 2021",
+    "website_url": "doeku.id"
+  },
+  {
+    "platform_name": "Aktivaku",
+    "company_name": "PT Aktivaku Investama Teknologi",
+    "license_number": "KEP-83/D.05/2021",
+    "registered_since": "24 Agustus 2021",
+    "website_url": "aktivaku.com"
+  },
+  {
+    "platform_name": "Danain",
+    "company_name": "PT Mulia Inovasi Digital",
+    "license_number": "KEP-84/D.05/2021",
+    "registered_since": "24 Agustus 2021",
+    "website_url": "www.danain.co.id"
+  },
+  {
+    "platform_name": "Indosaku",
+    "company_name": "PT Indosaku Digital Teknologi",
+    "license_number": "KEP-86/D.05/2021",
+    "registered_since": "31 Agustus 2021",
+    "website_url": "indosaku.id"
+  },
+  {
+    "platform_name": "EDUFUND",
+    "company_name": "PT Fintech Bina Bangsa",
+    "license_number": "KEP-88/D.05/2021",
+    "registered_since": "8 September 2021",
+    "website_url": "www.edufund.co.id"
+  },
+  {
+    "platform_name": "GandengTangan",
+    "company_name": "PT Kreasi Anak Indonesia",
+    "license_number": "KEP-89/D.05/2021",
+    "registered_since": "8 September 2021",
+    "website_url": "www.gandengtangan.co.id"
+  },
+  {
+    "platform_name": "PAPITUPI SYARIAH",
+    "company_name": "PT Piranti Alphabet Perkasa",
+    "license_number": "KEP-90/D.05/2021",
+    "registered_since": "8 September 2021",
+    "website_url": "www.papitupisyariah.com"
+  },
+  {
+    "platform_name": "BantuSaku",
+    "company_name": "PT Smartec Teknologi Indonesia",
+    "license_number": "KEP-91/D.05/2021",
+    "registered_since": "8 September 2021",
+    "website_url": "bantusaku.id"
+  },
+  {
+    "platform_name": "danabijak",
+    "company_name": "PT Digital Micro Indonesia",
+    "license_number": "KEP-92/D.05/2021",
+    "registered_since": "8 September 2021",
+    "website_url": "danabijak.com"
+  },
+  {
+    "platform_name": "AdaModal",
+    "company_name": "PT Solid Fintek Indonesia",
+    "license_number": "KEP-94/D.05/2021",
+    "registered_since": "8 September 2021",
+    "website_url": "www.adamodal.co.id"
+  },
+  {
+    "platform_name": "SamaKita",
+    "company_name": "PT Sejahtera Sama Kita",
+    "license_number": "KEP-95/D.05/2021",
+    "registered_since": "8 September 2021",
+    "website_url": "samakita.co.id"
+  },
+  {
+    "platform_name": "KawanCicil",
+    "company_name": "PT Kawan Cicil Teknologi Utama",
+    "license_number": "KEP-101/D.05/2021",
+    "registered_since": "17 September 2021",
+    "website_url": "kawancicil.co.id"
+  },
+  {
+    "platform_name": "KlikCair",
+    "company_name": "PT Klikcair Magga Jaya",
+    "license_number": "KEP-103/D.05/2021",
+    "registered_since": "17 September 2021",
+    "website_url": "klikcair.com"
+  },
+  {
+    "platform_name": "ETHIS",
+    "company_name": "PT Ethis Fintek Indonesia",
+    "license_number": "KEP-104/D.05/2021",
+    "registered_since": "17 September 2021",
+    "website_url": "ethis.co.id"
+  },
+  {
+    "platform_name": "SAMIR",
+    "company_name": "PT Sahabat Mikro Fintek",
+    "license_number": "KEP-105/D.05/2021",
+    "registered_since": "17 September 2021",
+    "website_url": "www.samir.co.id"
+  },
+  {
+    "platform_name": "UATAS",
+    "company_name": "PT Plus Ultra Abadi",
+    "license_number": "KEP-106/D.05/2021",
+    "registered_since": "17 September 2021",
+    "website_url": "www.uatas.id"
+  },
+  {
+    "platform_name": "Asetku",
+    "company_name": "PT Pintar Inovasi Digital",
+    "license_number": "KEP-123/D.05/2021",
+    "registered_since": "23 Desember 2021",
+    "website_url": "www.asetku.co.id"
+  },
+  {
+    "platform_name": "Findaya",
+    "company_name": "PT Mapan Global Reksa",
+    "license_number": "KEP-124/D.05/2021",
+    "registered_since": "23 Desember 2021",
+    "website_url": "https://www.findaya.co.id"
+  }
+]
