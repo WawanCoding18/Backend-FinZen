@@ -4,7 +4,14 @@ import PinjamanModel from "../models/pinjaman.model";
 import TransaksiModel from "../models/transaksi.model";
 import { IReqUser } from "../middlewares/auth.Middleware";
 
-//Tambah Data Pinjaman Baru maks 3
+const BATAS_PINJAMAN_AKTIF = 3;
+const PESAN_PERINGATAN =
+  "Jumlah pinjaman aktif kamu melebihi 3 platform. Kondisi ini dapat berisiko terhadap kesehatan keuanganmu.";
+
+const buatPeringatan = (jumlahAktif: number) =>
+  jumlahAktif > BATAS_PINJAMAN_AKTIF ? PESAN_PERINGATAN : null;
+
+//Tambah Data Pinjaman Baru 3
 export const postPinjaman = async (req: IReqUser, res: Response) => {
   try {
     const userId = req.user?.id;
@@ -12,15 +19,6 @@ export const postPinjaman = async (req: IReqUser, res: Response) => {
       return res
         .status(401)
         .json({ message: "Unauthorized: User tidak teridentifikasi" });
-    }
-
-    const jumlahPinjaman = await PinjamanModel.countDocuments({ user: userId });
-
-    if (jumlahPinjaman >= 3) {
-      return res.status(400).json({
-        message:
-          "Batas maksimal 3 pinjaman sudah tercapai. Hapus atau lunasi pinjaman lain terlebih dahulu.",
-      });
     }
 
     const {
@@ -66,9 +64,16 @@ export const postPinjaman = async (req: IReqUser, res: Response) => {
       statusPinjaman: "Aktif",
     });
 
+    const jumlahAktif = await PinjamanModel.countDocuments({
+      user: userId,
+      statusPinjaman: { $ne: "Lunas" },
+    });
+
     return res.status(201).json({
       message: "Berhasil menambahkan data pinjaman",
       data: newPinjaman,
+      jumlahAktif,
+      peringatan: buatPeringatan(jumlahAktif),
     });
   } catch (error) {
     return res
@@ -125,17 +130,15 @@ export const hitungDataPinjaman = async (userId: string) => {
     }
     return acc;
   }, 0);
-
+  
+  const jumlahAktif = listPinjaman.filter((p) => p.statusPinjaman !== "Lunas").length;
   return {
-    summary: {
-      belumDibayar,
-      sudahDibayar,
-      kewajibanPerbulan,
-    },
-    totalPinjaman: formattedData.length,
-    sisaSlot: 3 - formattedData.length,
-    data: formattedData,
-  };
+  summary: { belumDibayar, sudahDibayar, kewajibanPerbulan },
+  totalPinjaman: formattedData.length,
+  jumlahAktif,
+  peringatan: buatPeringatan(jumlahAktif),
+  data: formattedData,
+};
 };
 
 //Ambil Semua Data

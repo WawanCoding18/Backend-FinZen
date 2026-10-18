@@ -426,3 +426,49 @@ export const getFinancialHealth = async (req: IReqUser, res: Response) => {
     });
   }
 };
+
+
+export const ambilKondisiKeuangan = async (userId: string) => {
+  const sekarang = new Date();
+  const tigaPuluhHariLalu = new Date();
+  tigaPuluhHariLalu.setDate(tigaPuluhHariLalu.getDate() - 30);
+
+  const [pemasukan, pinjamanAktif, budgetAktif, targetAktif, fh] = await Promise.all([
+    TransaksiModel.find({ user: userId, tipe: "pemasukan", tanggal: { $gte: tigaPuluhHariLalu } }),
+    PinjamanModel.find({ user: userId, statusPinjaman: { $ne: "Lunas" } }),
+    BudgetingModel.find({ user: userId, Tanggal_Selesai: { $gte: sekarang } }),
+    TargetTabungModel.find({ user: userId, status: "Aktif" }),
+    FinancialHealthModel.findOne({ user: userId }).select(
+      "skorTotal grade disiplinAnggaran.status pengelolaanPinjaman.status targetNabung.status",
+    ),
+  ]);
+
+  const pemasukanBulanan = pemasukan.reduce((a, t) => a + (t.nominal ?? 0), 0);
+  const cicilanAktif = pinjamanAktif.reduce((a, p) => a + (p.cicilanBulanan ?? 0), 0);
+  const totalBudgetBulanan = budgetAktif.reduce((a, b) => a + (b.Batas_PerBulan ?? 0), 0);
+
+  const tabunganBulanan = targetAktif.reduce((a, t) => {
+    const sisaBulan = Math.max(
+      1,
+      Math.ceil((new Date(t.deadlineTarget).getTime() - sekarang.getTime()) / (1000 * 60 * 60 * 24 * 30)),
+    );
+    return a + Math.max(0, t.targetNominal - t.terkumpulNominal) / sisaBulan;
+  }, 0);
+
+  return {
+    pemasukanBulanan,
+    cicilanAktif,
+    jumlahPinjamanAktif: pinjamanAktif.length,
+    totalBudgetBulanan,
+    tabunganBulanan: Math.round(tabunganBulanan),
+    financialHealth: fh
+      ? {
+          skorTotal: fh.skorTotal,
+          grade: fh.grade,
+          statusAnggaran: fh.disiplinAnggaran?.status,
+          statusPinjaman: fh.pengelolaanPinjaman?.status,
+          statusTabungan: fh.targetNabung?.status,
+        }
+      : null,
+  };
+};

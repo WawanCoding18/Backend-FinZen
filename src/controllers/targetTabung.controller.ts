@@ -169,16 +169,16 @@ export const setorTargetTabung = async (req: IReqUser, res: Response) => {
 
     await target.save();
 
-    await TransaksiModel.create({
-      user: userId,
-      Catatan_Transaksi: `Setor Tabungan: ${target.namaTarget}`,
-      tipe: "pengeluaran",
-      kategori: "Tabungan",
-      Sumber_Dana: Sumber_Dana || "Tunai",
-      nominal: setor,
-      tanggal: new Date(),
-      targetTabungId: target._id,
-    });
+    // await TransaksiModel.create({
+    //   user: userId,
+    //   Catatan_Transaksi: `Setor Tabungan: ${target.namaTarget}`,
+    //   tipe: "pengeluaran",
+    //   kategori: "Tabungan",
+    //   Sumber_Dana: Sumber_Dana || "Tunai",
+    //   nominal: setor,
+    //   tanggal: new Date(),
+    //   targetTabungId: target._id,
+    // });
 
     return res.status(200).json({
       message: `Berhasil menyisihkan Rp${setor.toLocaleString("id-ID")} ke ${target.namaTarget}`,

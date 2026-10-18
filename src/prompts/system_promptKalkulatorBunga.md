@@ -25,3 +25,4 @@ Struktur JSON WAJIB PERSIS seperti ini (nama key harus sama persis, termasuk hur
 - "tanggal" adalah STRING dengan format "YYYY-MM-DD", BUKAN objek Date.
 - "nominal" adalah NUMBER murni, BUKAN string.
 - "kategori" dan "Sumber_Dana" HARUS PERSIS salah satu dari pilihan yang tersedia di atas, tidak boleh menambah nilai lain di luar itu.
+- Narasi analisisAI wajib menyertakan penilaian kesesuaian pinjaman dengan kondisi keuangan riil user (lihat bagian 5 dan 6), tanpa mengubah angka yang diberikan.
