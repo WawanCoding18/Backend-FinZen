@@ -5,7 +5,7 @@ import { createTransaksi, getAllTransaksi, getTransaksiById, updateTransaksi, de
 import { upload } from "../middlewares/upload.Middleware"
 import { handleOcrUpload } from "../controllers/chat.controller";
 import { getProfile, postProfile, updateProfile } from "../controllers/profile.controller";
-import { postPinjaman, getAllPinjaman, putPinjaman, editPinjaman, deletePinjaman } from "../controllers/pinjaman.controller";
+import { postPinjaman, getAllPinjaman, putPinjaman, editPinjaman, deletePinjaman, perpanjangTempo, lunasiPinjaman } from "../controllers/pinjaman.controller";
 import { postKalkulatorBunga, getKalkulatorBunga } from "../controllers/kalkulator.controller"
 import { postBudgeting, getAllBudgeting, updateBudgeting, deleteBudgeting } from "../controllers/budgeting.controller";
 import { getCariAman, postCariAman } from "../controllers/cariAman.controller";
@@ -36,6 +36,8 @@ router.post("/catatan-keuangan/pinjaman/tambah-pinjaman", authMiddleware, postPi
 router.get("/catatan-keuangan/pinjaman", authMiddleware, getAllPinjaman);
 router.put("/catatan-keuangan/pinjaman/:id/bayar", authMiddleware, putPinjaman);
 router.put("/catatan-keuangan/pinjaman/:id", authMiddleware, editPinjaman);
+router.put("/catatan-keuangan/pinjaman/:id/lunasi", authMiddleware, lunasiPinjaman);
+router.put("/catatan-keuangan/pinjaman/:id/perpanjang", authMiddleware, perpanjangTempo);
 router.delete("/catatan-keuangan/pinjaman/:id", authMiddleware, deletePinjaman);
 
 //router target tabung
